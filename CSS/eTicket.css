@@ -1,0 +1,230 @@
+body {
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h5 {
+  text-align: center;
+}
+
+h4 {
+  color: #F18650;
+  font-weight: 600;
+  font-size: 0.5rem;
+}
+
+/* Background */
+.backdrop {
+  background-color: #E8E8E8;
+  padding-top: 15px;
+}
+
+.page-title {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 1.5rem;
+  color: #808080;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* Ticket */
+.ticket {
+  background-color: #fff;
+  margin: auto 39px;
+  text-transform: uppercase;
+  box-shadow: 0 0 40px -25px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top-style: solid;
+  border-width: 8px 0 0 0;
+  border-image: linear-gradient(to right, #f97938, #D8514A, #ff3e61) 30;
+  border-radius: 10px;
+}
+
+.ticket-upper {
+  padding-top: 1.5rem;
+}
+
+.movie-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1rem;
+  background: -webkit-linear-gradient(#f97938, #D8514A, #ff3e61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.booking {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.booking-reference {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #999292;
+  text-align: right;
+  padding-top: 10px;
+  vertical-align: text-top;
+}
+
+.reference-number {
+  font-weight: 700;
+  font-size: 1.55rem;
+  color: #6c6c6c;
+  text-align: left;
+  position: relative;
+  margin-top: 4px;
+  padding-left: 5px;
+}
+
+.seating {
+  background-image: linear-gradient(to right, #f97938, #D8514A, #ff3e61);
+  padding: 24px 20px 14px 20px;
+  color: white;
+  line-height: 0.75rem;
+  margin: 0;
+}
+
+.seating-title {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.seat {
+  font-weight: 700;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.room {
+  position: relative;
+  margin-left: 60px;
+}
+
+.place {
+  position: relative;
+  margin-left: -60px;
+}
+
+.price-date {
+  padding: 20px 10px 20px 10px;
+}
+
+.price {
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  /* margin: 0; */
+  text-align: right;
+  font-weight: 700;
+  color: #afacac;
+  position: relative;
+  margin-left: 45px;
+  margin-right: -5px;
+}
+
+.date {
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: left;
+  font-weight: 700;
+  color: #afacac;
+  position: relative;
+  margin-right: -15px;
+  margin-left: -16px;
+}
+
+.date2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #afacac;
+  position: relative;
+  margin: -3px 0 0 -25px;
+}
+
+.price2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #afacac;
+  position: relative;
+  margin: -3px -40px 0 -20px;
+}
+
+.dots {
+  height: 15px;
+  width: 15px;
+  color: #dbdbdb;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: -15px;
+  /* display: inline-block; */
+}
+
+.dot-left {
+  top: -10px;
+  left: -10px;
+  position: relative;
+}
+
+.dot-right {
+  position: relative;
+  bottom: 33px;
+  left: 416px;
+}
+
+/* Ticket Stub */
+.ticket-stub {
+  border-top-style: dashed;
+  border-width: 4px 0 0 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #E8E8E8;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.barcode {
+  color: #1A1A1A;
+  font-size: 5rem;
+}
+
+/* Backdrop Bottom */
+.backdrop-instructions {
+  color: #868485;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 150px;
+  width: 55%;
+  margin: auto;
+}
+
+/* Footer Menu */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 15px 10px 10px 10px;
+}
+
+.menu {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.icon {
+  color: #868485;
+}
