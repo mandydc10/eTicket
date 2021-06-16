@@ -175,7 +175,7 @@ h4 {
 .dot-right {
   position: relative;
   bottom: 33px;
-  left: 416px;
+  right: -415px;
 }
 
 /* Ticket Stub */
