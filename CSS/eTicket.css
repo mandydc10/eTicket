@@ -1,8 +1,9 @@
-body {
+html, body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
   font-size: 100%;
   font-family: 'Montserrat', sans-serif;
-  width: 1002px;
-  margin: auto;
 }
 
 h1, h2, h5 {
@@ -159,25 +160,24 @@ h4 {
 }
 
 .dots {
-  height: 15px;
-  width: 15px;
+  width: 100%;
   color: #dbdbdb;
   border-radius: 50%;
   position: relative;
+  top: -10px;
   margin-bottom: -15px;
-  /* display: inline-block; */
 }
 
 .dot-left {
-  top: -10px;
+  height: 15px;
+  width: 15px;
   left: -10px;
-  position: relative;
 }
 
 .dot-right {
-  position: relative;
-  bottom: 33px;
-  right: -415px;
+  height: 15px;
+  width: 15px;
+  left: 49%;
 }
 
 /* Ticket Stub */
